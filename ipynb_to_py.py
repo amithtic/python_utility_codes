@@ -15,4 +15,5 @@ with open(output_file, 'w') as file_object:
                 content_out = content[j].replace("'\n'", '')
                 file_object.write(content_out)
             file_object.write('\n\n')
+            
     print("done")
